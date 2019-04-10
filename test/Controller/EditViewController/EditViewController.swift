@@ -26,6 +26,10 @@ class EditViewController: UIViewController {
             didDisconnect()
         }
         
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(UIInputViewController.dismissKeyboard))
+        
+        self.view.addGestureRecognizer(tap)
+        
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -84,6 +88,12 @@ class EditViewController: UIViewController {
         
         
     }
+    
+    @objc func dismissKeyboard() {
+        //Causes the view (or one of its embedded text fields) to resign the first responder status.
+        view.endEditing(true)
+    }
+
     
     func setLineUnderTableViewCell(height : CGFloat, width : CGFloat) -> CALayer{
         var bottomBorder = CALayer()

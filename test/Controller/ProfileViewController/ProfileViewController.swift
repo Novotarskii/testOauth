@@ -84,12 +84,15 @@ class ProfileViewController: UIViewController {
             break
         case 1:
             cell?.privacyInfoLbl.text = user.blog
+            cell?.privacyInfoImg.image = UIImage(named: "blogImg")
             break
         case 2:
             cell?.privacyInfoLbl.text = user.company
+            cell?.privacyInfoImg.image = UIImage(named: "workPlaceImg")
             break
         case 3:
             cell?.privacyInfoLbl.text = user.location
+            cell?.privacyInfoImg.image = UIImage(named: "locationImg")
             break
         default:
             break
