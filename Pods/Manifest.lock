@@ -1,0 +1,28 @@
+PODS:
+  - Alamofire (4.8.1)
+  - Localize (2.0.5)
+  - OAuthSwift (1.2.2)
+  - ReachabilitySwift (4.3.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - Localize (~> 2.0.4)
+  - OAuthSwift (~> 1.2.0)
+  - ReachabilitySwift
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Localize
+    - OAuthSwift
+    - ReachabilitySwift
+
+SPEC CHECKSUMS:
+  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  Localize: 0fa01a98c5caf8e235cc0160984c4922aa310b61
+  OAuthSwift: 27b34fe80b76b67cd8f45571e0be2432bc9f6de1
+  ReachabilitySwift: 408477d1b6ed9779dba301953171e017c31241f3
+
+PODFILE CHECKSUM: 12a326c614795b7d1b1bbdd18d2d1b40e36acc06
+
+COCOAPODS: 1.5.3
